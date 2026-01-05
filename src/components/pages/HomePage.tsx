@@ -81,7 +81,7 @@ const TIMELINE: TimelineEvent[] = [
   { year: "2023", title: "The Diagnosis", description: "Mason was forced to commence his courageous battle with his spirit inspiring love and support of those around him." },
   { year: "2023-2025", title: "The Battle", description: "Mason's battle faced a healthcare system unfamiliar with Mason's cancer, untrained, and unaccountable; resulting in the drastic reduction in chances at saving his life." },
   { year: "2025", title: "The Legacy", description: "On Wednesday December 17, 2025, Mason passed, and in a way touching the spirit of those he always knew and driving the mission to fight pediatric cancer." },
-  { year: "2026", title: "The Future", description: "Our foundation launched with a singular focus and mission...and with your support will save lives"." }
+  { year: "2026", title: "The Future", description: "Our foundation launched with a singular focus and mission...and with your support will save lives." }
 ];
 
 
