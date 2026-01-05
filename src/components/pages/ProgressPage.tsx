@@ -179,7 +179,7 @@ export default function ProgressPage() {
           {timeline.length === 0 && (
             <div className="text-center py-12">
               <p className="font-paragraph text-lg text-foreground">
-                Timeline updates coming soon. Check back for our latest milestones and impact stories.
+                Timeline updates coming soon. Check back or sign up for our latest milestones and impact stories.
               </p>
             </div>
           )}
