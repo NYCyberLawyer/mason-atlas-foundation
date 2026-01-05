@@ -19,7 +19,7 @@ export interface ImpactTimeline {
   description?: string;
   /** @wixFieldType text */
   impactDetails?: string;
-  /** @wixFieldType image - Contains image URL, render with <Image> component, NOT as text */
+  /** @wixFieldType image */
   milestoneImage?: string;
   /** @wixFieldType url */
   callToActionUrl?: string;
@@ -40,7 +40,7 @@ export interface NewsArticles {
   author?: string;
   /** @wixFieldType date */
   publicationDate?: Date | string;
-  /** @wixFieldType image - Contains image URL, render with <Image> component, NOT as text */
+  /** @wixFieldType image */
   featuredImage?: string;
   /** @wixFieldType text */
   content?: string;
@@ -63,7 +63,7 @@ export interface Programs {
   programTitle?: string;
   /** @wixFieldType text */
   programDescription?: string;
-  /** @wixFieldType image - Contains image URL, render with <Image> component, NOT as text */
+  /** @wixFieldType image */
   programImage?: string;
   /** @wixFieldType text */
   programCategory?: string;
