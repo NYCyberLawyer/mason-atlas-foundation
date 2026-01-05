@@ -213,9 +213,7 @@ export default function HomePage() {
           <AnimatedElement delay={200}>
             <div className="flex items-center justify-center gap-4 mb-8">
               <div className="h-[1px] w-12 bg-soft-gold" />
-              <p className="font-paragraph text-xl md:text-2xl text-foreground/80 tracking-wide uppercase">
-                Honoring a Life, Supporting a Cause
-              </p>
+              <p className="font-paragraph text-xl md:text-2xl text-foreground/80 tracking-wide uppercase">{"Because You Can"}</p>
               <div className="h-[1px] w-12 bg-soft-gold" />
             </div>
           </AnimatedElement>
@@ -276,18 +274,8 @@ export default function HomePage() {
                   Continuing <span className="italic text-soft-gold">Mason's Legacy</span> <br />
                 </h2>
                 <div className="space-y-6 font-paragraph text-lg text-foreground/80 leading-relaxed">
-                  <p>
-                    The Mason Atlas Foundation was created in loving memory of Mason Atlas, 
-                    a brave and beautiful child who touched countless lives during his battle 
-                    with pediatric brain cancer. Mason's spirit, symbolized by butterflies and 
-                    rainbows, continues to inspire hope and transformation.
-                  </p>
-                  <p>
-                    Our foundation is dedicated to supporting families affected by pediatric 
-                    cancer, funding critical research, and creating a community of hope and healing. 
-                    Through Mason's legacy, we strive to make a meaningful difference in the lives 
-                    of children and families facing similar challenges.
-                  </p>
+                  <p>{"Mason’s\n life, though far too brief, has left a lasting imprint on all who knew \nhim. In the midst of extraordinary hardship, Mason showed us what quiet \ncourage, compassion, and love truly look like. His presence changed \nus—and it continues to guide us. In\n Mason’s memory, our family has established the Mason Atlas Giving Fund."}</p>
+                  <p>{"The fund exists to honor who Mason was and to help ensure that other \nchildren and families facing pediatric brain cancer receive the care, \nresearch, and support they deserve."}</p>
                 </div>
                 
                 <div className="mt-12 flex items-center gap-8">
