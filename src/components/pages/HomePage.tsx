@@ -78,10 +78,10 @@ const NEWS: NewsItem[] = [
 ];
 
 const TIMELINE: TimelineEvent[] = [
-  { year: "2021", title: "The Inspiration", description: "Mason's courageous battle inspires a movement of love and support." },
-  { year: "2022", title: "Foundation Established", description: "Officially launching our mission to aid families and fund research." },
-  { year: "2023", title: "First Grants Awarded", description: "Providing direct financial assistance to 50 families in need." },
-  { year: "2024", title: "Expanding Horizons", description: "Launching nationwide support networks and research partnerships." }
+  { year: "2023", title: "The Diagnosis", description: "Mason was forced to commence his courageous battle with his spirit inspiring love and support of those around him." },
+  { year: "2023-2025", title: "The Battle", description: "Mason's battle faced a healthcare system unfamiliar with Mason's cancer, untrained, and unaccountable; resulting in the drastic reduction in chances at saving his life." },
+  { year: "2025", title: "The Legacy", description: "On Wednesday December 17, 2025, Mason passed, and in a way touching the spirit of those he always knew and driving the mission to fight pediatric cancer." },
+  { year: "2026", title: "The Future", description: "Our foundation launched with a singular focus and mission...and with your support will save lives"." }
 ];
 
 // --- Utility Components ---
