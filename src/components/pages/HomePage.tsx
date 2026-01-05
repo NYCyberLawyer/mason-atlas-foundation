@@ -36,14 +36,7 @@ interface TimelineEvent {
 // --- Static Data (Simulating CMS Content for New Sections) ---
 
 const PROGRAMS: Program[] = [
-
   { 
-    title: "Help Build the first U.S. Pediatric Integrated Cancer Service", 
-    description: "Securing the infrastructure, equipment, experienced and specialized medical staff, and more, to establish centers around the U.S. to which hospitals can and must refer pediatric cancers cases. Mandatory  integrated care so that parents don’t have to navigate a black box, and so clarity and care is provided from the day of diagnosis onwards.", 
-    link: "/programs",
-    action: "Learn More"
-  },
-    { 
     title: "Get Help", 
     description: "Navigating a diagnosis is overwhelming. We provide guidance, resources, and a compassionate hand to hold for families in need.", 
     link: "/get-help",
@@ -54,37 +47,42 @@ const PROGRAMS: Program[] = [
     description: "Your time and heart can transform lives. Join our dedicated community of volunteers and advocates making a real difference.", 
     link: "/volunteer",
     action: "Volunteer"
+  },
+  { 
+    title: "Future Initiatives", 
+    description: "We are actively developing new therapeutic art and music programs to bring joy and expression to children in treatment.", 
+    link: "/programs",
+    action: "Learn More"
   }
 ];
 
 const NEWS: NewsItem[] = [
   { 
-    title: "Example: The Urgent Need for Pediatric Research", 
-    date: "January 1, 2026", 
+    title: "The Urgent Need for Pediatric Research", 
+    date: "October 24, 2023", 
     summary: "Why we must bridge the funding gap for childhood cancer research now.",
     category: "Op-Ed"
   },
   { 
-    title: "Example: First Annual Mason Atlas Gala", 
-    date: "September 15, 2026", 
-    summary: "Celebrating the legacy of Mason Atlas, the resilience of our families and the generosity of our donors.",
+    title: "A Garden of Hope: Annual Gala", 
+    date: "September 15, 2023", 
+    summary: "Celebrating the resilience of our families and the generosity of our donors.",
     category: "Events"
   },
   { 
     title: "Mason's Light: One Year Later", 
-    date: "December 17, 2026", 
+    date: "August 02, 2023", 
     summary: "Reflecting on the enduring impact of a beautiful life well-lived.",
     category: "Foundation News"
   }
 ];
 
 const TIMELINE: TimelineEvent[] = [
-  { year: "2023", title: "The Diagnosis", description: "Mason was forced to commence his courageous battle with his spirit inspiring love and support of those around him." },
-  { year: "2023-2025", title: "The Battle", description: "Mason's battle faced a healthcare system unfamiliar with Mason's cancer, untrained, and unaccountable; resulting in the drastic reduction in chances at saving his life." },
-  { year: "2025", title: "The Legacy", description: "On Wednesday December 17, 2025, Mason passed, and in a way touching the spirit of those he always knew and driving the mission to fight pediatric cancer." },
-  { year: "2026", title: "The Future", description: "Our foundation launched with a singular focus and mission...and with your support will save lives." }
+  { year: "2021", title: "The Inspiration", description: "Mason's courageous battle inspires a movement of love and support." },
+  { year: "2022", title: "Foundation Established", description: "Officially launching our mission to aid families and fund research." },
+  { year: "2023", title: "First Grants Awarded", description: "Providing direct financial assistance to 50 families in need." },
+  { year: "2024", title: "Expanding Horizons", description: "Launching nationwide support networks and research partnerships." }
 ];
-
 
 // --- Utility Components ---
 
@@ -180,12 +178,15 @@ export default function HomePage() {
           border: 1px solid rgba(255, 255, 255, 0.5);
         }
       `}</style>
+
       {/* Scroll Progress Indicator */}
       <motion.div 
         className="fixed top-0 left-0 right-0 h-1 bg-gradient-to-r from-primary via-soft-gold to-primary origin-left z-50"
         style={{ scaleX }}
       />
+
       <Header />
+
       {/* --- HERO SECTION --- */}
       <section className="relative h-screen w-full overflow-hidden flex items-center justify-center">
         {/* Parallax Background */}
@@ -214,7 +215,9 @@ export default function HomePage() {
           <AnimatedElement delay={200}>
             <div className="flex items-center justify-center gap-4 mb-8">
               <div className="h-[1px] w-12 bg-soft-gold" />
-              <p className="font-paragraph text-xl md:text-2xl text-foreground/80 tracking-wide uppercase">{"Because You Can"}</p>
+              <p className="font-paragraph text-xl md:text-2xl text-foreground/80 tracking-wide uppercase">
+                Honoring a Life, Supporting a Cause
+              </p>
               <div className="h-[1px] w-12 bg-soft-gold" />
             </div>
           </AnimatedElement>
@@ -244,6 +247,7 @@ export default function HomePage() {
           <div className="w-[1px] h-16 bg-gradient-to-b from-foreground/0 via-foreground/40 to-foreground/0" />
         </motion.div>
       </section>
+
       {/* --- MISSION SECTION --- */}
       <section className="relative py-32 w-full bg-background">
         <div className="max-w-[100rem] mx-auto px-8">
@@ -252,13 +256,11 @@ export default function HomePage() {
               <AnimatedElement>
                 <div className="relative aspect-[4/5] rounded-2xl overflow-hidden shadow-2xl">
                   <Image
-                    src="https://static.wixstatic.com/media/dcf233_e64576d26f0744d6b2bbda1b643d819f~mv2.avif"
+                    src="https://static.wixstatic.com/media/dcf233_4ee8ce904e4844c485f9cac49eca5abc~mv2.png?originWidth=768&originHeight=960"
+                    alt="Mason Atlas"
                     width={800}
                     className="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
-                    originWidth={417}
-                    originHeight={485}
-                    focalPointX={59.352517985611506}
-                    focalPointY={45.97938144329897} />
+                  />
                   <div className="absolute inset-0 border-[1px] border-white/20 m-4 rounded-xl pointer-events-none" />
                 </div>
                 {/* Decorative Element */}
@@ -272,11 +274,22 @@ export default function HomePage() {
                   Our Mission
                 </span>
                 <h2 className="font-heading text-5xl md:text-6xl text-foreground mb-8 leading-[1.1]">
-                  Continuing <span className="italic text-soft-gold">Mason's Legacy</span> <br />
+                  A Sanctuary of <span className="italic text-soft-gold">Hope</span> & <br />
+                  Remembrance
                 </h2>
                 <div className="space-y-6 font-paragraph text-lg text-foreground/80 leading-relaxed">
-                  <p>{"Mason’s\n life, though far too brief, has left a lasting imprint on all who knew \nhim. In the midst of extraordinary hardship, Mason showed us what quiet \ncourage, compassion, and love truly look like. His presence changed \nus—and it continues to guide us. In\n Mason’s memory, our family has established the Mason Atlas Giving Fund."}</p>
-                  <p>{"The fund exists to honor who Mason was and to help ensure that other \nchildren and families facing pediatric brain cancer receive the care, \nresearch, and support they deserve."}</p>
+                  <p>
+                    The Mason Atlas Foundation was created in loving memory of Mason Atlas, 
+                    a brave and beautiful child who touched countless lives during his battle 
+                    with pediatric brain cancer. Mason's spirit, symbolized by butterflies and 
+                    rainbows, continues to inspire hope and transformation.
+                  </p>
+                  <p>
+                    Our foundation is dedicated to supporting families affected by pediatric 
+                    cancer, funding critical research, and creating a community of hope and healing. 
+                    Through Mason's legacy, we strive to make a meaningful difference in the lives 
+                    of children and families facing similar challenges.
+                  </p>
                 </div>
                 
                 <div className="mt-12 flex items-center gap-8">
@@ -298,6 +311,7 @@ export default function HomePage() {
           </div>
         </div>
       </section>
+
       {/* --- PROGRAMS SECTION --- */}
       <section className="py-32 w-full bg-white relative overflow-hidden">
         {/* Subtle Rainbow Gradient Background */}
@@ -307,7 +321,9 @@ export default function HomePage() {
           <AnimatedElement>
             <div className="text-center max-w-3xl mx-auto mb-20">
               <h2 className="font-heading text-5xl text-foreground mb-6">Our Programs</h2>
-              <p className="font-paragraph text-xl text-secondary">{"Here's the Problem and See How Hard it Is to Fix ItFixing the Challenges for Parents Facing Pediatric Cancer"}</p>
+              <p className="font-paragraph text-xl text-secondary">
+                Building a future where every child has the chance to thrive, and every family has a place to turn.
+              </p>
             </div>
           </AnimatedElement>
 
@@ -337,6 +353,7 @@ export default function HomePage() {
           </div>
         </div>
       </section>
+
       {/* --- IMPACT TIMELINE SECTION --- */}
       <section className="py-32 w-full bg-background relative">
         <div className="max-w-[100rem] mx-auto px-8">
@@ -393,6 +410,7 @@ export default function HomePage() {
           </div>
         </div>
       </section>
+
       {/* --- NEWS SECTION --- */}
       <section className="py-32 w-full bg-white">
         <div className="max-w-[100rem] mx-auto px-8">
@@ -446,6 +464,7 @@ export default function HomePage() {
           </div>
         </div>
       </section>
+
       {/* --- NEWSLETTER & CTA SECTION --- */}
       <section className="py-32 w-full bg-background relative overflow-hidden">
         {/* Decorative Background Elements */}
@@ -546,6 +565,7 @@ export default function HomePage() {
           </div>
         </div>
       </section>
+
       <Footer />
     </div>
   );
