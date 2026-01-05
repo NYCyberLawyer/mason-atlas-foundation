@@ -7,16 +7,6 @@ import "@wix/wix-vibe-plugins/plugins-vars.css";
 import "@wix/wix-vibe-plugins/plugins-theme.css";
 import "@/styles/global.css";
 
-// Check if this is an editor request - if so, let it pass through
-const isEditorRequest = Astro.request.headers.get('x-wix-editor') === 'true' || 
-                        Astro.url.pathname.includes('/_api/') ||
-                        Astro.url.pathname.includes('/admin/') ||
-                        Astro.url.pathname.includes('/_wix/');
-
-if (isEditorRequest) {
-  return new Response('Not Found', { status: 404 });
-}
-
 const seoTagsServiceConfig = await loadSEOTagsServiceConfig({
   pageUrl: Astro.url.href,
   itemData: {
