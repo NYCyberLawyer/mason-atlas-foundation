@@ -272,7 +272,7 @@ export default function HomePage() {
                   Our Mission
                 </span>
                 <h2 className="font-heading text-5xl md:text-6xl text-foreground mb-8 leading-[1.1]">
-                  Continuing <span className="italic text-soft-gold">Mason's Legacy</span> & <br />
+                  Continuing <span className="italic text-soft-gold">Mason's Legacy</span> <br />
                 </h2>
                 <div className="space-y-6 font-paragraph text-lg text-foreground/80 leading-relaxed">
                   <p>
