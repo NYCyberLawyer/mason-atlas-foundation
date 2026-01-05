@@ -36,7 +36,14 @@ interface TimelineEvent {
 // --- Static Data (Simulating CMS Content for New Sections) ---
 
 const PROGRAMS: Program[] = [
+
   { 
+    title: "Help Build the first U.S. Pediatric Integrated Cancer Service", 
+    description: "Securing the infrastructure, equipment, experienced and specialized medical staff, and more, to establish centers around the U.S. to which hospitals can and must refer pediatric cancers cases. Mandatory  integrated care so that parents don’t have to navigate a black box, and so clarity and care is provided from the day of diagnosis onwards.", 
+    link: "/programs",
+    action: "Learn More"
+  },
+    { 
     title: "Get Help", 
     description: "Navigating a diagnosis is overwhelming. We provide guidance, resources, and a compassionate hand to hold for families in need.", 
     link: "/get-help",
@@ -47,31 +54,25 @@ const PROGRAMS: Program[] = [
     description: "Your time and heart can transform lives. Join our dedicated community of volunteers and advocates making a real difference.", 
     link: "/volunteer",
     action: "Volunteer"
-  },
-  { 
-    title: "Future Initiatives", 
-    description: "We are actively developing new therapeutic art and music programs to bring joy and expression to children in treatment.", 
-    link: "/programs",
-    action: "Learn More"
   }
 ];
 
 const NEWS: NewsItem[] = [
   { 
-    title: "The Urgent Need for Pediatric Research", 
-    date: "October 24, 2023", 
+    title: "Example: The Urgent Need for Pediatric Research", 
+    date: "January 1, 2026", 
     summary: "Why we must bridge the funding gap for childhood cancer research now.",
     category: "Op-Ed"
   },
   { 
-    title: "A Garden of Hope: Annual Gala", 
-    date: "September 15, 2023", 
-    summary: "Celebrating the resilience of our families and the generosity of our donors.",
+    title: "Example: First Annual Mason Atlas Gala", 
+    date: "September 15, 2026", 
+    summary: "Celebrating the legacy of Mason Atlas, the resilience of our families and the generosity of our donors.",
     category: "Events"
   },
   { 
     title: "Mason's Light: One Year Later", 
-    date: "August 02, 2023", 
+    date: "December 17, 2026", 
     summary: "Reflecting on the enduring impact of a beautiful life well-lived.",
     category: "Foundation News"
   }
@@ -306,9 +307,7 @@ export default function HomePage() {
           <AnimatedElement>
             <div className="text-center max-w-3xl mx-auto mb-20">
               <h2 className="font-heading text-5xl text-foreground mb-6">Our Programs</h2>
-              <p className="font-paragraph text-xl text-secondary">
-                Building a future where every child has the chance to thrive, and every family has a place to turn.
-              </p>
+              <p className="font-paragraph text-xl text-secondary">{"Here's the Problem and See How Hard it Is to Fix ItFixing the Challenges for Parents Facing Pediatric Cancer"}</p>
             </div>
           </AnimatedElement>
 
