@@ -1,0 +1,1083 @@
+{
+  "id": "a272596e-722c-4c53-83f3-58dfcab7893f",
+  "siteName": "Mason Atlas Foundation",
+  "domainUrl": "dawsonatlasfoundation.com",
+  "brandingPresets": [
+    {
+      "presetId": "00000000-473e-4a07-a05b-f28de230e1ed",
+      "brandIdentity": {
+        "designSummary": "**Elegant Serenity: A Sanctuary of Hope**\n\nThe Vision: To create a digital space that embodies both the gravity of the foundation's mission and the enduring spirit of Mason Atlas. The design will evoke a sense of calm, trust, and quiet strength, like a memorial garden where hope blossoms amidst remembrance. The butterflies and rainbows will be subtly integrated as symbols of transformation and promise, not as childish tropes.\n\n**Execution Blueprint:**\n1. Symmetrical Harmony: The layout will adhere to a strict symmetrical balance, creating a sense of order and peace. This will be achieved through a 12-column grid, with elements carefully aligned to create visual equilibrium.\n2. Whitespace as a Healing Balm: Generous whitespace is not just for aesthetics; it's a design element that allows content to breathe and provides a sense of calm. Margins and padding will be consistently applied to create a spacious and uncluttered feel.\n3. Typographic Elegance: A classic serif font (Cormorant Garamond) will be used for headings to convey sophistication and timelessness, while a clean sans-serif font (Lato Light) will ensure readability for body text.\n4. Muted Palette with Rainbow Accents: The color palette will be primarily monochromatic, with soft off-whites and greys creating a serene backdrop. Subtle rainbow gradients will be used sparingly as accents, symbolizing hope and transformation without overwhelming the design.\n5. Ghost Buttons and Understated Interactions: Buttons will be designed as ghost buttons (thin outlines) or text-only links, maintaining a minimalist aesthetic. Animations will be subtle and slow, such as gentle fade-ins, to enhance the feeling of quality and refinement.",
+        "toneOfVoice": "Compassionate, hopeful, and professional.",
+        "tones": [
+          "Empathetic",
+          "Supportive",
+          "Informative"
+        ],
+        "designStyle": {
+          "primaryStyle": [
+            "Elegant"
+          ],
+          "supportingStyles": [
+            "Minimalist",
+            "Serene"
+          ]
+        },
+        "palette": {
+          "colors": {
+            "primary": "#7B68EE",
+            "primaryForeground": "#FFFFFF",
+            "secondary": "#A9A9A9",
+            "secondaryForeground": "#FFFFFF",
+            "background": "#F8F8FF",
+            "foreground": "#2F4F4F",
+            "customColors": [
+              {
+                "name": "lightGrey",
+                "value": "#D3D3D3"
+              },
+              {
+                "name": "softGold",
+                "value": "#BDB76B"
+              },
+              {
+                "name": "destructive",
+                "value": "#DC143C"
+              },
+              {
+                "name": "destructive-foreground",
+                "value": "#FFFFFF"
+              }
+            ]
+          },
+          "paletteUsageGuide": "The primary color is used for main interactive elements. Secondary color is used for less important elements. Background and foreground colors provide contrast for readability. Custom colors are used for accents and special cases.",
+          "paletteAccessibilityNotes": "Ensure sufficient contrast between text and background colors for readability. Use colorblindness simulators to check accessibility for users with visual impairments."
+        },
+        "typography": {
+          "headings": {
+            "font": {
+              "role": "headings",
+              "fontFamily": "cormorantgaramond",
+              "fontJustification": ""
+            },
+            "headingsSimilarFonts": [],
+            "headingsUsageGuide": "Use for all headings to create a sophisticated and timeless feel.",
+            "headingsAccessibilityNotes": "Ensure sufficient contrast with background colors. Use appropriate heading levels for semantic structure."
+          },
+          "paragraphs": {
+            "font": {
+              "role": "paragraphs",
+              "fontFamily": "lato-light",
+              "fontJustification": ""
+            },
+            "paragraphsSimilarFonts": [],
+            "paragraphsUsageGuide": "Use for all body text to ensure readability and a clean aesthetic.",
+            "paragraphsAccessibilityNotes": "Ensure sufficient contrast with background colors. Use appropriate line height for readability."
+          },
+          "welcomeSectionTypography": {
+            "placement": "",
+            "implementation": ""
+          },
+          "fontSizes": [
+            {
+              "name": "xs",
+              "size": "0.75rem",
+              "lineHeight": "1",
+              "letterSpacing": "0.05em",
+              "fontWeight": "300"
+            },
+            {
+              "name": "sm",
+              "size": "0.875rem",
+              "lineHeight": "1.25",
+              "letterSpacing": "0.025em",
+              "fontWeight": "300"
+            },
+            {
+              "name": "base",
+              "size": "1rem",
+              "lineHeight": "1.5",
+              "letterSpacing": "0.01em",
+              "fontWeight": "300"
+            },
+            {
+              "name": "lg",
+              "size": "1.125rem",
+              "lineHeight": "1.75",
+              "letterSpacing": "0.005em",
+              "fontWeight": "300"
+            },
+            {
+              "name": "xl",
+              "size": "1.25rem",
+              "lineHeight": "1.75",
+              "letterSpacing": "0em",
+              "fontWeight": "400"
+            },
+            {
+              "name": "2xl",
+              "size": "1.5rem",
+              "lineHeight": "2",
+              "letterSpacing": "0em",
+              "fontWeight": "400"
+            },
+            {
+              "name": "3xl",
+              "size": "1.875rem",
+              "lineHeight": "2.25",
+              "letterSpacing": "0em",
+              "fontWeight": "400"
+            },
+            {
+              "name": "4xl",
+              "size": "2.25rem",
+              "lineHeight": "2.5",
+              "letterSpacing": "-0.01em",
+              "fontWeight": "500"
+            },
+            {
+              "name": "5xl",
+              "size": "3rem",
+              "lineHeight": "1",
+              "letterSpacing": "-0.01em",
+              "fontWeight": "500"
+            },
+            {
+              "name": "6xl",
+              "size": "3.75rem",
+              "lineHeight": "1",
+              "letterSpacing": "-0.02em",
+              "fontWeight": "600"
+            },
+            {
+              "name": "7xl",
+              "size": "4.5rem",
+              "lineHeight": "1",
+              "letterSpacing": "-0.02em",
+              "fontWeight": "600"
+            },
+            {
+              "name": "8xl",
+              "size": "6rem",
+              "lineHeight": "1",
+              "letterSpacing": "-0.03em",
+              "fontWeight": "700"
+            },
+            {
+              "name": "9xl",
+              "size": "8rem",
+              "lineHeight": "1",
+              "letterSpacing": "-0.03em",
+              "fontWeight": "700"
+            }
+          ]
+        },
+        "layout": {
+          "layoutDna": {
+            "densitySpectrum": "Sparse",
+            "contrastSpectrum": "Subtle",
+            "gridAlignmentSpectrum": "Symmetrical",
+            "negativeSpaceUsage": "Generous",
+            "textVsImageEmphasis": "Balanced",
+            "complexitySpectrum": "Simple"
+          },
+          "grid": {
+            "compositionApproach": "Strict 12-Column Grid with Symmetrical Balance",
+            "spacing": {
+              "columns": "12",
+              "rows": "Auto",
+              "gaps": "Base unit: 8px. All grid gaps are 24px (3x base unit)."
+            },
+            "margins": "Base unit: 8px. Standard margin: 40px (5x base unit).",
+            "padding": "Base unit: 8px. Standard padding: 32px (4x base unit)."
+          },
+          "heroSectionLayout": "**The Gentle Fade-In**\nComposition (Tailwind Spec): Full-screen container (h-screen grid place-items-center). Headline 'Mason Atlas Foundation' (text-7xl font-bold text-gray-800). Subheadline 'Honoring a Life, Supporting a Cause' (text-xl text-gray-600 mt-4).\nSignature Hook (Framer Motion Spec): Parent `motion.div` uses `initial={{ opacity: 0 }}` and `animate={{ opacity: 1, transition: { duration: 1 } }}`. Headline and subheadline each have `initial={{ y: 20, opacity: 0 }}` and `animate={{ y: 0, opacity: 1, transition: { duration: 0.5, delay: 0.5 } }}`."
+        },
+        "components": {
+          "containers": "Method: Whitespace, Style: 60px vertical margin",
+          "images": "Layout Role: None. | Gallery Type: Interactive Slideshow: A full-viewport carousel with cinematic cross-fade transitions.",
+          "buttons": "Primary: background-color: #7B68EE, color: #FFFFFF, border-radius: 8px, padding: 12px 24px. Secondary: background-color: transparent, color: #7B68EE, border: 1px solid #7B68EE, border-radius: 8px."
+        },
+        "graphicElements": {
+          "icons": "",
+          "illustrations": "",
+          "stickers": ""
+        }
+      },
+      "originImagesUrls": []
+    },
+    {
+      "presetId": "a2e0d88a-61ed-4879-a4ce-de21b27b7bc3",
+      "brandIdentity": {
+        "designSummary": "The design features a warm, earthy color palette with soft cream, pale greenish-beige, and deep brown tones that create a natural and elegant atmosphere. Typography plays a central role, with large, classic serif fonts for headings that convey craftsmanship and luxury, paired with clean serif body text for readability. The layout is spacious and balanced, using generous white space and a column-based grid with subtle asymmetry to maintain visual interest. UI components like buttons and containers are minimal and understated, emphasizing simplicity and elegance. The overall aesthetic is timeless and artisanal, suitable for brands that value natural materials and refined presentation.",
+        "toneOfVoice": "Sophisticated, warm, artisanal, and refined with a calm and inviting personality.",
+        "tones": [
+          "calm",
+          "sophisticated",
+          "warm",
+          "natural",
+          "elegant",
+          "refined",
+          "artisanal",
+          "timeless",
+          "inviting",
+          "minimalist"
+        ],
+        "designStyle": {
+          "primaryStyle": [
+            "Minimalism",
+            "Luxury",
+            "Artisanal"
+          ],
+          "supportingStyles": [
+            "Editorial",
+            "Natural",
+            "Classic"
+          ]
+        },
+        "palette": {
+          "colors": {
+            "primary": "#5B3A29",
+            "primaryForeground": "#F0EDE6",
+            "secondary": "#D9E0B0",
+            "secondaryForeground": "#5B3A29",
+            "background": "#F0EDE6",
+            "customColors": [
+              {
+                "name": "footerbackground",
+                "value": "#2E1B17"
+              },
+              {
+                "name": "linkcolor",
+                "value": "#5B3A29"
+              },
+              {
+                "name": "buttonborder",
+                "value": "#5B3A29"
+              },
+              {
+                "name": "foreground",
+                "value": "#5B3A29"
+              },
+              {
+                "name": "destructive",
+                "value": "#DF3131"
+              },
+              {
+                "name": "destructiveforeground",
+                "value": "#FFFFFF"
+              }
+            ]
+          },
+          "paletteUsageGuide": "Use the 'background' color as the primary page background to create a soft, warm canvas. The 'primary' color is ideal for headings, key text elements, and interactive text such as links and buttons, paired with 'primaryForeground' for contrast on dark backgrounds like the footer. The 'secondary' color serves well for section backgrounds or subtle highlights, with 'secondaryForeground' used for text on these backgrounds to maintain readability. The 'footerBackground' anchors the page footer with a deep, rich tone, contrasting with 'primaryForeground' text for accessibility. The 'linkColor' and 'buttonBorder' colors are used for interactive elements, ensuring they stand out while maintaining the natural, elegant aesthetic. This palette supports a calm, sophisticated atmosphere with strong accessibility and visual harmony.",
+          "paletteAccessibilityNotes": "The 'primaryForeground' on 'primary' and 'footerBackground' colors meet WCAG AA contrast standards for large and normal text, ensuring readability. The 'secondaryForeground' on 'secondary' also meets contrast requirements for body text. Links and buttons using 'linkColor' and 'buttonBorder' on 'background' or 'secondary' backgrounds maintain sufficient contrast for accessibility compliance."
+        },
+        "typography": {
+          "headings": {
+            "font": {
+              "role": "Primary Heading Font",
+              "fontFamily": "bitter",
+              "fontJustification": ""
+            },
+            "headingsSimilarFonts": [
+              "bitter",
+              "cormorantgaramond",
+              "didot-w01-italic"
+            ],
+            "headingsUsageGuide": "Use the 'bitter' font for all primary headings to convey sophistication and craftsmanship. Headings should be large, spaced with generous line height to enhance readability and elegance. Pair with body text fonts that are clean and legible to maintain hierarchy and balance. Use the 'primary' color for headings on light backgrounds and 'primaryForeground' on dark backgrounds to ensure contrast and accessibility.",
+            "headingsAccessibilityNotes": "Headings in 'primary' on 'background' and 'primaryForeground' on 'footerBackground' meet WCAG AA contrast standards for all sizes, ensuring clear readability."
+          },
+          "paragraphs": {
+            "font": {
+              "role": "Main Body Text Font",
+              "fontFamily": "madefor-display",
+              "fontJustification": ""
+            },
+            "paragraphsSimilarFonts": [
+              "playfair display",
+              "cormorantgaramond-light",
+              "raleway"
+            ],
+            "paragraphsUsageGuide": "Use the 'bitter' font for body text to provide a clean, readable experience that complements the more decorative heading font. Maintain consistent line height and letter spacing for comfortable reading. Text color should be 'primary' on light backgrounds and 'primaryForeground' on dark backgrounds. Avoid overly small font sizes to preserve legibility, especially on mobile devices.",
+            "paragraphsAccessibilityNotes": "Body text in 'primary' on 'background' and 'primaryForeground' on 'footerBackground' meets WCAG AA contrast requirements for normal and large text."
+          },
+          "welcomeSectionTypography": {
+            "placement": "Triple Panel Editorial",
+            "implementation": "The welcome fold is divided into three distinct vertical panels of differing widths. The far left narrow column features strong branding or logo, often with a bold color background. The central, wider panel presents a powerful visual, such as a photo or artwork, serving as the primary focus. The far right column contains key information, such as event details and a call-to-action button. This layout creates a sophisticated, editorial look and striking asymmetry, drawing the eye to the image first, then to key actions and branding."
+          },
+          "fontSizes": [
+            {
+              "name": "xs",
+              "size": "0.75rem",
+              "lineHeight": "1.2",
+              "letterSpacing": "0.02em",
+              "fontWeight": "400"
+            },
+            {
+              "name": "sm",
+              "size": "0.875rem",
+              "lineHeight": "1.3",
+              "letterSpacing": "0.02em",
+              "fontWeight": "400"
+            },
+            {
+              "name": "base",
+              "size": "1rem",
+              "lineHeight": "1.5",
+              "letterSpacing": "0.025em",
+              "fontWeight": "400"
+            },
+            {
+              "name": "lg",
+              "size": "1.125rem",
+              "lineHeight": "1.5",
+              "letterSpacing": "0.025em",
+              "fontWeight": "400"
+            },
+            {
+              "name": "xl",
+              "size": "1.25rem",
+              "lineHeight": "1.6",
+              "letterSpacing": "0.03em",
+              "fontWeight": "400"
+            },
+            {
+              "name": "2xl",
+              "size": "1.5rem",
+              "lineHeight": "1.6",
+              "letterSpacing": "0.03em",
+              "fontWeight": "600"
+            },
+            {
+              "name": "3xl",
+              "size": "1.875rem",
+              "lineHeight": "1.6",
+              "letterSpacing": "0.035em",
+              "fontWeight": "600"
+            },
+            {
+              "name": "4xl",
+              "size": "2.25rem",
+              "lineHeight": "1.4",
+              "letterSpacing": "0.04em",
+              "fontWeight": "700"
+            },
+            {
+              "name": "5xl",
+              "size": "3rem",
+              "lineHeight": "1.2",
+              "letterSpacing": "0.04em",
+              "fontWeight": "700"
+            },
+            {
+              "name": "6xl",
+              "size": "3.75rem",
+              "lineHeight": "1.1",
+              "letterSpacing": "0.05em",
+              "fontWeight": "700"
+            },
+            {
+              "name": "7xl",
+              "size": "4.5rem",
+              "lineHeight": "1.1",
+              "letterSpacing": "0.05em",
+              "fontWeight": "700"
+            },
+            {
+              "name": "8xl",
+              "size": "6rem",
+              "lineHeight": "1",
+              "letterSpacing": "0.06em",
+              "fontWeight": "700"
+            },
+            {
+              "name": "9xl",
+              "size": "8rem",
+              "lineHeight": "1",
+              "letterSpacing": "0.06em",
+              "fontWeight": "700"
+            }
+          ]
+        },
+        "layout": {
+          "layoutDna": {
+            "densitySpectrum": "Balanced",
+            "contrastSpectrum": "Subtle",
+            "gridAlignmentSpectrum": "Strict Grid",
+            "negativeSpaceUsage": "Generous",
+            "textVsImageEmphasis": "Balanced",
+            "complexitySpectrum": "Simple & Clean"
+          },
+          "grid": {
+            "compositionApproach": "Column-based",
+            "spacing": {
+              "columns": "12-column grid",
+              "rows": "Defined content rows",
+              "gaps": "Consistent medium gaps"
+            },
+            "margins": "Generous page margins",
+            "padding": "Consistent padding within containers"
+          }
+        },
+        "components": {
+          "containers": "Containers use subtle background color shifts between 'background' and 'secondary' to delineate sections softly without harsh borders, maintaining a clean and elegant flow. Padding is consistent to ensure content breathes and aligns with the overall spacious layout.",
+          "images": "Images are presented with no borders or shadows, emphasizing natural textures and materials. They are integrated into the grid with balanced spacing, often paired side-by-side with text blocks to create harmony and visual interest.",
+          "buttons": "Buttons are minimal with thin borders in 'buttonBorder' color and text in 'primary'. They have no heavy backgrounds, maintaining the understated elegance. On hover or focus, the button text or border may darken slightly to indicate interactivity while preserving subtlety."
+        },
+        "graphicElements": {
+          "icons": "Icons are minimal or absent, focusing on typography and photography to convey the brand message. If used, icons would be line-based, simple, and in 'primary' color to maintain consistency.",
+          "illustrations": "No illustrations are present; the design relies on photography and typography for visual storytelling.",
+          "stickers": "No stickers or badges are used, preserving the clean and sophisticated aesthetic."
+        }
+      },
+      "originImagesUrls": [
+        "https://wixmp-fe53c9ff592a4da924211f23.wixmp.com/uploads/1752405607909-Group%201000002186.jpg"
+      ]
+    },
+    {
+      "presetId": "62d486fa-e023-4545-b985-e1b254c0c476",
+      "brandIdentity": {
+        "designSummary": "This brand identity features a classic and authoritative visual style characterized by a strong serif typography paired with a patriotic color palette of deep navy blue, vivid red, and a warm cream background. The design employs a spacious, modular layout with generous negative space, allowing bold headlines and clear calls to action to stand out prominently. Navy blue serves as the primary color for text and backgrounds, conveying professionalism and trust, while red is used strategically for emphasis and interactive elements such as buttons and highlights, adding energy and urgency. The cream background softens the overall contrast, providing warmth and approachability. Typography is elegant and traditional, with large, bold serif headlines that communicate confidence and experience, complemented by smaller serif body text for readability and formality. UI components like buttons are distinctly styled with rounded corners and clear color differentiation between primary and secondary actions. Minimal graphic elements and purposeful iconography maintain a clean, focused aesthetic that supports the brand's serious and results-driven tone. This design language is versatile for any website requiring a professional, trustworthy, and engaging presence.",
+        "toneOfVoice": "Authoritative, confident, professional, trustworthy, and results-driven.",
+        "tones": [
+          "Trustworthy",
+          "Confident",
+          "Professional",
+          "Serious",
+          "Engaging",
+          "Classic",
+          "Warm",
+          "Clear",
+          "Bold",
+          "Elegant"
+        ],
+        "designStyle": {
+          "primaryStyle": [
+            "Classic",
+            "Editorial",
+            "Minimalism"
+          ],
+          "supportingStyles": [
+            "Patriotic",
+            "Professional",
+            "Modern Usability"
+          ]
+        },
+        "palette": {
+          "colors": {
+            "primary": "#0B1E5B",
+            "primaryForeground": "#FFFFFF",
+            "secondary": "#E31B23",
+            "secondaryForeground": "#FFFFFF",
+            "background": "#FFF8F0",
+            "customColors": [
+              {
+                "name": "foreground",
+                "value": "#0B1E5B"
+              },
+              {
+                "name": "destructive",
+                "value": "#DF3131"
+              },
+              {
+                "name": "destructiveforeground",
+                "value": "#FFFFFF"
+              }
+            ]
+          },
+          "paletteUsageGuide": "Use the 'primary' color predominantly for large text blocks, backgrounds, and key UI elements to convey professionalism and trust. The 'primaryForeground' color should be used for text and icons placed on 'primary' backgrounds to ensure high contrast and readability. The 'secondary' color is reserved for calls to action, highlights, and interactive elements such as buttons to draw user attention and create urgency. Text or icons on 'secondary' backgrounds should use the 'secondaryForeground' color for optimal contrast. The 'background' color provides a warm, neutral canvas that balances the strong contrast between 'primary' and 'secondary' colors, supporting a clean and approachable aesthetic. Avoid mixing 'primary' and 'secondary' colors in large areas to maintain clarity. Use generous negative space around colored elements to enhance focus and legibility. This palette supports accessibility and visual hierarchy effectively.",
+          "paletteAccessibilityNotes": "The combination of 'primary' (#0B1E5B) and 'primaryForeground' (#FFFFFF) meets WCAG AA and AAA contrast standards for text and UI elements. The 'secondary' (#E31B23) and 'secondaryForeground' (#FFFFFF) pairing also meets WCAG AA contrast requirements, ensuring buttons and calls to action are accessible. The 'background' (#FFF8F0) provides sufficient contrast with both 'primary' and 'secondary' colors for body text and interface components, supporting readability and user comfort."
+        },
+        "typography": {
+          "headings": {
+            "font": {
+              "role": "Primary Heading Font",
+              "fontFamily": "playfair display",
+              "fontJustification": ""
+            },
+            "headingsSimilarFonts": [
+              "didot-w01-italic",
+              "baskervillemtw01-smbdit",
+              "adobe-caslon-w01-smbd"
+            ],
+            "headingsUsageGuide": "Use the 'playfair display' font for all major headings and key textual statements to convey authority and elegance. Employ large font sizes with bold weight and italic styling for emphasis and hierarchy. Pair headings with smaller, simpler serif or sans-serif fonts for body text to maintain readability and balance. Ensure headings use the 'primary' color for maximum impact or 'primaryForeground' when placed on dark backgrounds. Maintain sufficient spacing above and below headings to enhance clarity and visual separation.",
+            "headingsAccessibilityNotes": "Headings in 'primary' color on 'background' or 'primaryForeground' on 'primary' backgrounds meet WCAG AA contrast standards, ensuring legibility for users with visual impairments."
+          },
+          "paragraphs": {
+            "font": {
+              "role": "Main Body Text Font",
+              "fontFamily": "playfair display",
+              "fontJustification": ""
+            },
+            "paragraphsSimilarFonts": [
+              "baskervillemtw01-smbdit",
+              "adobe-caslon-w01-smbd",
+              "didot-w01-italic"
+            ],
+            "paragraphsUsageGuide": "Use the same 'playfair display' font for body text in a smaller size and normal weight to maintain consistency and formality. Body text should primarily use the 'primary' color on the 'background' to ensure readability. Avoid using italics for large blocks of text to maintain clarity. Maintain comfortable line height and letter spacing to enhance legibility. Pair paragraphs with bold, large headings to create a clear typographic hierarchy.",
+            "paragraphsAccessibilityNotes": "Body text in 'primary' color on 'background' meets WCAG AA contrast requirements for normal and large text, supporting accessibility."
+          },
+          "welcomeSectionTypography": {
+            "placement": "Weighted Quadrant",
+            "implementation": "The welcome section uses a weighted quadrant layout where large, bold headings occupy the left two-thirds of the screen, creating a strong visual anchor. The right quadrant features a portrait image with a subtle interactive icon overlay, balancing the composition. This placement emphasizes the message and the individual simultaneously, using negative space effectively to avoid clutter and maintain focus."
+          },
+          "fontSizes": [
+            {
+              "name": "xs",
+              "size": "0.75rem",
+              "lineHeight": "1.2",
+              "letterSpacing": "0.02em",
+              "fontWeight": "400"
+            },
+            {
+              "name": "sm",
+              "size": "0.875rem",
+              "lineHeight": "1.3",
+              "letterSpacing": "0.02em",
+              "fontWeight": "400"
+            },
+            {
+              "name": "base",
+              "size": "1rem",
+              "lineHeight": "1.5",
+              "letterSpacing": "0.025em",
+              "fontWeight": "400"
+            },
+            {
+              "name": "lg",
+              "size": "1.125rem",
+              "lineHeight": "1.5",
+              "letterSpacing": "0.025em",
+              "fontWeight": "400"
+            },
+            {
+              "name": "xl",
+              "size": "1.25rem",
+              "lineHeight": "1.5",
+              "letterSpacing": "0.03em",
+              "fontWeight": "600"
+            },
+            {
+              "name": "2xl",
+              "size": "1.5rem",
+              "lineHeight": "1.4",
+              "letterSpacing": "0.03em",
+              "fontWeight": "600"
+            },
+            {
+              "name": "3xl",
+              "size": "1.875rem",
+              "lineHeight": "1.3",
+              "letterSpacing": "0.035em",
+              "fontWeight": "700"
+            },
+            {
+              "name": "4xl",
+              "size": "2.25rem",
+              "lineHeight": "1.2",
+              "letterSpacing": "0.04em",
+              "fontWeight": "700"
+            },
+            {
+              "name": "5xl",
+              "size": "3rem",
+              "lineHeight": "1.1",
+              "letterSpacing": "0.045em",
+              "fontWeight": "800"
+            },
+            {
+              "name": "6xl",
+              "size": "3.75rem",
+              "lineHeight": "1.1",
+              "letterSpacing": "0.05em",
+              "fontWeight": "800"
+            },
+            {
+              "name": "7xl",
+              "size": "4.5rem",
+              "lineHeight": "1",
+              "letterSpacing": "0.05em",
+              "fontWeight": "900"
+            },
+            {
+              "name": "8xl",
+              "size": "6rem",
+              "lineHeight": "1",
+              "letterSpacing": "0.06em",
+              "fontWeight": "900"
+            },
+            {
+              "name": "9xl",
+              "size": "8rem",
+              "lineHeight": "1",
+              "letterSpacing": "0.07em",
+              "fontWeight": "900"
+            }
+          ]
+        },
+        "layout": {
+          "layoutDna": {
+            "densitySpectrum": "Balanced",
+            "contrastSpectrum": "High-Contrast",
+            "gridAlignmentSpectrum": "Modular",
+            "negativeSpaceUsage": "Generous",
+            "textVsImageEmphasis": "Balanced",
+            "complexitySpectrum": "Simple & Clean"
+          },
+          "grid": {
+            "compositionApproach": "Modular",
+            "spacing": {
+              "columns": "12-column grid",
+              "rows": "Defined content rows",
+              "gaps": "Consistent medium gaps"
+            },
+            "margins": "Generous page margins",
+            "padding": "Consistent padding within containers"
+          }
+        },
+        "components": {
+          "containers": "Containers use the 'background' color with generous padding and margins to separate content blocks. Borders are minimal or absent, relying on spacing and color contrast to define sections. This approach maintains a clean and open feel.",
+          "images": "Images are framed simply with no heavy borders, often aligned to the right or center. They are used as strong visual anchors, balanced with text. Interactive icons may overlay images subtly in the 'secondary' color for engagement.",
+          "buttons": "Primary buttons use the 'secondary' color with white text ('secondaryForeground'), featuring rounded corners and a solid fill to attract attention. Secondary buttons use the 'primary' color as an outline with 'primary' text on a transparent background, maintaining hierarchy and clarity."
+        },
+        "graphicElements": {
+          "icons": "Icons are minimalistic, line-based, and use the 'primary' or 'secondary' colors depending on context. They serve functional purposes such as navigation toggles or interactive cues without overwhelming the design.",
+          "illustrations": "No prominent illustrations are used; the design relies on photography and typography for visual interest.",
+          "stickers": "No sticker or badge elements are present, maintaining a clean and formal aesthetic."
+        }
+      },
+      "originImagesUrls": [
+        "https://wixmp-fe53c9ff592a4da924211f23.wixmp.com/uploads/1752406959807-Screenshot%202025-07-13%20at%2014.40.45%201.jpg"
+      ]
+    },
+    {
+      "presetId": "7945c485-50e0-459e-965a-5687e103c38e",
+      "brandIdentity": {
+        "designSummary": "This design features a minimalist and refined aesthetic with a strong emphasis on typography and color contrast. The primary color is a vivid orange used boldly as a background block to anchor the brand presence, complemented by a monochrome palette of black and white for text and backgrounds. The typography combines a high-contrast serif font for headings, evoking classical elegance, with a clean sans-serif font for body and UI text to ensure readability and modernity. The layout is grid-based and modular, with clear vertical divisions and generous white space that create an airy, uncluttered feel. Buttons and icons are simple, rounded, and monochrome, reinforcing the minimal and professional tone. Black-and-white photography adds a timeless and classic atmosphere. Overall, the design communicates a cultured and sophisticated brand identity suitable for classical music or cultural institutions, balancing tradition with contemporary clarity.",
+        "toneOfVoice": "Sophisticated, elegant, cultured, and professional with a modern sensibility.",
+        "tones": [
+          "Sophisticated",
+          "Elegant",
+          "Minimalist",
+          "Timeless",
+          "Professional",
+          "Cultured",
+          "Modern",
+          "Refined",
+          "Clean",
+          "Balanced"
+        ],
+        "designStyle": {
+          "primaryStyle": [
+            "Minimalism",
+            "Modern Classic"
+          ],
+          "supportingStyles": [
+            "Editorial",
+            "Monochrome",
+            "Grid-Based"
+          ]
+        },
+        "palette": {
+          "colors": {
+            "primary": "#F04E23",
+            "primaryForeground": "#000000",
+            "secondary": "#000000",
+            "secondaryForeground": "#FFFFFF",
+            "background": "#F0F0F0",
+            "customColors": [
+              {
+                "name": "foreground",
+                "value": "#000000"
+              },
+              {
+                "name": "destructive",
+                "value": "#DF3131"
+              },
+              {
+                "name": "destructiveforeground",
+                "value": "#FFFFFF"
+              }
+            ]
+          },
+          "paletteUsageGuide": "Use the 'primary' color as a bold background accent to create strong brand presence and visual hierarchy. The 'primaryForeground' color is used for text and icons on the 'primary' background to ensure high contrast and readability. The 'secondary' color serves as the main text and button background color, paired with 'secondaryForeground' for text on these elements. The 'background' color provides a neutral, light canvas that supports content clarity and balances the vividness of the 'primary' color. This palette ensures a clean, accessible interface with clear visual distinctions between interactive elements and content areas.",
+          "paletteAccessibilityNotes": "The combination of 'primary' with 'primaryForeground' provides sufficient contrast for large text and UI elements, meeting WCAG AA standards. The 'secondary' and 'secondaryForeground' pairing offers excellent contrast for buttons and smaller text. The 'background' color paired with 'secondary' or black text ensures readability and accessibility compliance across the site."
+        },
+        "typography": {
+          "headings": {
+            "font": {
+              "role": "Primary Heading Font",
+              "fontFamily": "forum",
+              "fontJustification": ""
+            },
+            "headingsSimilarFonts": [
+              "playfair display",
+              "baskervillemtw01-smbdit",
+              "adobe-caslon-w01-smbd"
+            ],
+            "headingsUsageGuide": "Use the heading font for all major titles and section headers to convey elegance and sophistication. Pair with the paragraph font to create a clear typographic hierarchy. Maintain generous letter spacing and line height for readability and aesthetic balance. Use 'primary' or 'secondary' colors for headings depending on background for optimal contrast.",
+            "headingsAccessibilityNotes": "Ensure headings maintain at least WCAG AA contrast ratios against their backgrounds, especially when using 'primary' or 'background' colors."
+          },
+          "paragraphs": {
+            "font": {
+              "role": "Main Body Text Font",
+              "fontFamily": "proxima-n-w01-reg",
+              "fontJustification": ""
+            },
+            "paragraphsSimilarFonts": [
+              "open sans",
+              "rubik-v2",
+              "work-sans-v2"
+            ],
+            "paragraphsUsageGuide": "Use the paragraph font for all body text, navigation, and UI labels. It complements the serif headings by providing clarity and neutrality. Maintain consistent spacing and line height for legibility. Use 'secondary' color for text on 'background' to ensure accessibility.",
+            "paragraphsAccessibilityNotes": "Paragraph text colors must meet WCAG AA contrast standards against the 'background' color for readability."
+          },
+          "welcomeSectionTypography": {
+            "placement": "Vertical-axis Spine",
+            "implementation": "The welcome section uses a strong vertical split with a bold color block on the left containing large, vertically stacked serif headings aligned to the left edge. The right side balances this with a monochrome image and a light background panel containing smaller sans-serif text and call-to-action buttons. This placement creates a dynamic yet balanced visual flow that guides the eye vertically and emphasizes brand identity."
+          },
+          "fontSizes": [
+            {
+              "name": "xs",
+              "size": "0.75rem",
+              "lineHeight": "1.2",
+              "letterSpacing": "0.02em",
+              "fontWeight": "400"
+            },
+            {
+              "name": "sm",
+              "size": "0.875rem",
+              "lineHeight": "1.3",
+              "letterSpacing": "0.02em",
+              "fontWeight": "400"
+            },
+            {
+              "name": "base",
+              "size": "1rem",
+              "lineHeight": "1.5",
+              "letterSpacing": "0.025em",
+              "fontWeight": "400"
+            },
+            {
+              "name": "lg",
+              "size": "1.125rem",
+              "lineHeight": "1.5",
+              "letterSpacing": "0.025em",
+              "fontWeight": "400"
+            },
+            {
+              "name": "xl",
+              "size": "1.25rem",
+              "lineHeight": "1.5",
+              "letterSpacing": "0.03em",
+              "fontWeight": "400"
+            },
+            {
+              "name": "2xl",
+              "size": "1.5rem",
+              "lineHeight": "1.4",
+              "letterSpacing": "0.03em",
+              "fontWeight": "400"
+            },
+            {
+              "name": "3xl",
+              "size": "1.875rem",
+              "lineHeight": "1.3",
+              "letterSpacing": "0.035em",
+              "fontWeight": "400"
+            },
+            {
+              "name": "4xl",
+              "size": "2.25rem",
+              "lineHeight": "1.2",
+              "letterSpacing": "0.04em",
+              "fontWeight": "400"
+            },
+            {
+              "name": "5xl",
+              "size": "3rem",
+              "lineHeight": "1.1",
+              "letterSpacing": "0.04em",
+              "fontWeight": "400"
+            },
+            {
+              "name": "6xl",
+              "size": "3.75rem",
+              "lineHeight": "1.1",
+              "letterSpacing": "0.045em",
+              "fontWeight": "400"
+            },
+            {
+              "name": "7xl",
+              "size": "4.5rem",
+              "lineHeight": "1.05",
+              "letterSpacing": "0.05em",
+              "fontWeight": "400"
+            },
+            {
+              "name": "8xl",
+              "size": "6rem",
+              "lineHeight": "1.05",
+              "letterSpacing": "0.05em",
+              "fontWeight": "400"
+            },
+            {
+              "name": "9xl",
+              "size": "8rem",
+              "lineHeight": "1",
+              "letterSpacing": "0.06em",
+              "fontWeight": "400"
+            }
+          ]
+        },
+        "layout": {
+          "layoutDna": {
+            "densitySpectrum": "Balanced",
+            "contrastSpectrum": "High-Contrast",
+            "gridAlignmentSpectrum": "Strict Grid",
+            "negativeSpaceUsage": "Generous",
+            "textVsImageEmphasis": "Balanced",
+            "complexitySpectrum": "Simple & Clean"
+          },
+          "grid": {
+            "compositionApproach": "Column-based",
+            "spacing": {
+              "columns": "3-column vertical split in hero, single column list for events",
+              "rows": "Defined content rows with clear separation",
+              "gaps": "Consistent medium gaps between sections and elements"
+            },
+            "margins": "Generous page margins to enhance whitespace",
+            "padding": "Consistent padding within containers for content breathing room"
+          }
+        },
+        "components": {
+          "containers": "Containers use solid background colors with clear vertical and horizontal divisions. The primary container uses a bold 'primary' color block, while others use 'background' or light gray to separate content areas. Padding and margins are consistent to maintain balance and clarity.",
+          "images": "Images are presented in black-and-white or muted tones, framed within clean rectangular blocks. They serve as visual anchors without overwhelming the layout, maintaining the monochrome and minimalist aesthetic.",
+          "buttons": "Buttons are rounded rectangles with a solid 'secondary' black background and 'secondaryForeground' white text. They have minimal padding and no additional decoration, emphasizing clarity and call-to-action prominence."
+        },
+        "graphicElements": {
+          "icons": "Icons are minimal, monochrome, and line-based, consistent with the overall clean and modern aesthetic. They are used sparingly to support navigation and user actions.",
+          "illustrations": "No illustrations are present; the design relies on photography and typography for visual interest.",
+          "stickers": "No stickers or badges are used, maintaining the minimalist and elegant tone."
+        }
+      },
+      "originImagesUrls": [
+        "https://wixmp-fe53c9ff592a4da924211f23.wixmp.com/uploads/1751357506281-Screenshot%202025-07-01%20at%2011.11.41.png"
+      ]
+    }
+  ],
+  "brandBook": {
+    "tones": [
+      "Empathetic",
+      "Supportive",
+      "Informative"
+    ],
+    "designStyle": {
+      "primaryStyle": [
+        "Elegant"
+      ],
+      "supportingStyles": [
+        "Minimalist",
+        "Serene"
+      ]
+    },
+    "toneOfVoice": "Compassionate, hopeful, and professional.",
+    "components": {
+      "images": "Layout Role: None. | Gallery Type: Interactive Slideshow: A full-viewport carousel with cinematic cross-fade transitions.",
+      "buttons": "Primary: background-color: #7B68EE, color: #FFFFFF, border-radius: 8px, padding: 12px 24px. Secondary: background-color: transparent, color: #7B68EE, border: 1px solid #7B68EE, border-radius: 8px.",
+      "containers": "Method: Whitespace, Style: 60px vertical margin"
+    },
+    "typography": {
+      "headings": {
+        "font": {
+          "role": "headings",
+          "fontFamily": "cormorantgaramond",
+          "fontJustification": ""
+        },
+        "headingsUsageGuide": "Use for all headings to create a sophisticated and timeless feel.",
+        "headingsSimilarFonts": [],
+        "headingsAccessibilityNotes": "Ensure sufficient contrast with background colors. Use appropriate heading levels for semantic structure."
+      },
+      "fontSizes": [
+        {
+          "name": "xs",
+          "size": "0.75rem",
+          "letterSpacing": "0.05em",
+          "lineHeight": "1",
+          "fontWeight": "300"
+        },
+        {
+          "name": "sm",
+          "size": "0.875rem",
+          "letterSpacing": "0.025em",
+          "lineHeight": "1.25",
+          "fontWeight": "300"
+        },
+        {
+          "name": "base",
+          "size": "1rem",
+          "letterSpacing": "0.01em",
+          "lineHeight": "1.5",
+          "fontWeight": "300"
+        },
+        {
+          "name": "lg",
+          "size": "1.125rem",
+          "letterSpacing": "0.005em",
+          "lineHeight": "1.75",
+          "fontWeight": "300"
+        },
+        {
+          "name": "xl",
+          "size": "1.25rem",
+          "letterSpacing": "0em",
+          "lineHeight": "1.75",
+          "fontWeight": "400"
+        },
+        {
+          "name": "2xl",
+          "size": "1.5rem",
+          "letterSpacing": "0em",
+          "lineHeight": "2",
+          "fontWeight": "400"
+        },
+        {
+          "name": "3xl",
+          "size": "1.875rem",
+          "letterSpacing": "0em",
+          "lineHeight": "2.25",
+          "fontWeight": "400"
+        },
+        {
+          "name": "4xl",
+          "size": "2.25rem",
+          "letterSpacing": "-0.01em",
+          "lineHeight": "2.5",
+          "fontWeight": "500"
+        },
+        {
+          "name": "5xl",
+          "size": "3rem",
+          "letterSpacing": "-0.01em",
+          "lineHeight": "1",
+          "fontWeight": "500"
+        },
+        {
+          "name": "6xl",
+          "size": "3.75rem",
+          "letterSpacing": "-0.02em",
+          "lineHeight": "1",
+          "fontWeight": "600"
+        },
+        {
+          "name": "7xl",
+          "size": "4.5rem",
+          "letterSpacing": "-0.02em",
+          "lineHeight": "1",
+          "fontWeight": "600"
+        },
+        {
+          "name": "8xl",
+          "size": "6rem",
+          "letterSpacing": "-0.03em",
+          "lineHeight": "1",
+          "fontWeight": "700"
+        },
+        {
+          "name": "9xl",
+          "size": "8rem",
+          "letterSpacing": "-0.03em",
+          "lineHeight": "1",
+          "fontWeight": "700"
+        }
+      ],
+      "paragraphs": {
+        "font": {
+          "role": "paragraphs",
+          "fontFamily": "lato-light",
+          "fontJustification": ""
+        },
+        "paragraphsUsageGuide": "Use for all body text to ensure readability and a clean aesthetic.",
+        "paragraphsSimilarFonts": [],
+        "paragraphsAccessibilityNotes": "Ensure sufficient contrast with background colors. Use appropriate line height for readability."
+      },
+      "welcomeSectionTypography": {
+        "placement": "",
+        "implementation": ""
+      }
+    },
+    "originImagesUrls": [],
+    "layout": {
+      "grid": {
+        "margins": "Base unit: 8px. Standard margin: 40px (5x base unit).",
+        "padding": "Base unit: 8px. Standard padding: 32px (4x base unit).",
+        "spacing": {
+          "gaps": "Base unit: 8px. All grid gaps are 24px (3x base unit).",
+          "rows": "Auto",
+          "columns": "12"
+        },
+        "compositionApproach": "Strict 12-Column Grid with Symmetrical Balance"
+      },
+      "layoutDna": {
+        "contrastSpectrum": "Subtle",
+        "densitySpectrum": "Sparse",
+        "textVsImageEmphasis": "Balanced",
+        "complexitySpectrum": "Simple",
+        "gridAlignmentSpectrum": "Symmetrical",
+        "negativeSpaceUsage": "Generous"
+      },
+      "heroSectionLayout": "**The Gentle Fade-In**\nComposition (Tailwind Spec): Full-screen container (h-screen grid place-items-center). Headline 'Mason Atlas Foundation' (text-7xl font-bold text-gray-800). Subheadline 'Honoring a Life, Supporting a Cause' (text-xl text-gray-600 mt-4).\nSignature Hook (Framer Motion Spec): Parent `motion.div` uses `initial={{ opacity: 0 }}` and `animate={{ opacity: 1, transition: { duration: 1 } }}`. Headline and subheadline each have `initial={{ y: 20, opacity: 0 }}` and `animate={{ y: 0, opacity: 1, transition: { duration: 0.5, delay: 0.5 } }}`."
+    },
+    "graphicElements": {
+      "icons": "",
+      "stickers": "",
+      "illustrations": ""
+    },
+    "designSummary": "**Elegant Serenity: A Sanctuary of Hope**\n\nThe Vision: To create a digital space that embodies both the gravity of the foundation's mission and the enduring spirit of Mason Atlas. The design will evoke a sense of calm, trust, and quiet strength, like a memorial garden where hope blossoms amidst remembrance. The butterflies and rainbows will be subtly integrated as symbols of transformation and promise, not as childish tropes.\n\n**Execution Blueprint:**\n1. Symmetrical Harmony: The layout will adhere to a strict symmetrical balance, creating a sense of order and peace. This will be achieved through a 12-column grid, with elements carefully aligned to create visual equilibrium.\n2. Whitespace as a Healing Balm: Generous whitespace is not just for aesthetics; it's a design element that allows content to breathe and provides a sense of calm. Margins and padding will be consistently applied to create a spacious and uncluttered feel.\n3. Typographic Elegance: A classic serif font (Cormorant Garamond) will be used for headings to convey sophistication and timelessness, while a clean sans-serif font (Lato Light) will ensure readability for body text.\n4. Muted Palette with Rainbow Accents: The color palette will be primarily monochromatic, with soft off-whites and greys creating a serene backdrop. Subtle rainbow gradients will be used sparingly as accents, symbolizing hope and transformation without overwhelming the design.\n5. Ghost Buttons and Understated Interactions: Buttons will be designed as ghost buttons (thin outlines) or text-only links, maintaining a minimalist aesthetic. Animations will be subtle and slow, such as gentle fade-ins, to enhance the feeling of quality and refinement.",
+    "palette": {
+      "colors": {
+        "background": "#F8F8FF",
+        "secondary": "#A9A9A9",
+        "customColors": [
+          {
+            "name": "lightGrey",
+            "value": "#D3D3D3"
+          },
+          {
+            "name": "softGold",
+            "value": "#BDB76B"
+          },
+          {
+            "name": "destructive",
+            "value": "#DC143C"
+          },
+          {
+            "name": "destructive-foreground",
+            "value": "#FFFFFF"
+          }
+        ],
+        "foreground": "#2F4F4F",
+        "secondaryForeground": "#FFFFFF",
+        "primaryForeground": "#FFFFFF",
+        "primary": "#7B68EE"
+      },
+      "paletteUsageGuide": "The primary color is used for main interactive elements. Secondary color is used for less important elements. Background and foreground colors provide contrast for readability. Custom colors are used for accents and special cases.",
+      "paletteAccessibilityNotes": "Ensure sufficient contrast between text and background colors for readability. Use colorblindness simulators to check accessibility for users with visual impairments."
+    }
+  },
+  "initialPrompt": "Create a professional website for the Mason Atlas Foundation, a children's cancer foundation in memory of Mason Atlas, a child who passed away from pediatric brain cancer. The site should include: 1) Landing Page titled 'About Us' with a picture of Mason, a brief description, a QR code, a 'Donate Now' button, and an email signup with a checkbox for agreeing to terms of use and privacy policy (both hyperlinked), and footer links to these policies. 2) 'Our Mission' section describing the foundation's mission and fundraising goals. 3) 'Our Programs' section with: a) 'Get Help' for families seeking guidance, b) 'Get Involved' with a form for volunteers, c) 'Other Programs Coming Soon'. 4) 'Our Progress / Impact' with a timeline and updates. 5) 'News' with information and op-eds about pediatric cancer. 6) 'Donate' page for donations. 7) 'Contact Us' page for inquiries. The design should be professional and incorporate butterflies and rainbows to reflect Mason's spirit.",
+  "status": "READY",
+  "revision": "10",
+  "createdDate": "2026-01-05T01:25:14.416Z",
+  "updatedDate": "2026-01-05T01:25:38.913Z",
+  "attachments": {
+    "contentImagesUrls": [],
+    "inspirationImagesUrls": []
+  },
+  "selectedBrandingPresetId": "00000000-473e-4a07-a05b-f28de230e1ed",
+  "plan": "\n\n```json\n{\n  \"sections\": [\n    {\n      \"id\": \"overview\",\n      \"title\": \"## Overview\",\n      \"content\": \"This plan creates a professional website for the Mason Atlas Foundation, a children's cancer foundation. The site will feature information about Mason's legacy, the foundation's mission and programs, impact updates, news, and mechanisms for donations, volunteer engagement, and contact.\"\n    },\n    {\n      \"id\": \"key-features\",\n      \"title\": \"## Key features\",\n      \"content\": \"- **View About Us Information**: Displays Mason's story, a photo, a QR code, and a brief description of the foundation.\\n- **View Mission Information**: Describes the foundation's mission and fundraising goals.\\n- **View Programs Listing**: Shows available programs including Get Help, Get Involved, and Coming Soon programs.\\n- **View Program Details**: Displays detailed information for a specific program.\\n- **Submit Volunteer Form**: Allows interested individuals to register as volunteers through a form.\\n- **View Impact Timeline**: Displays the foundation's progress and impact updates in a timeline format.\\n- **View News Listing**: Shows articles and op-eds about pediatric cancer.\\n- **View News Item Details**: Displays the full content of a specific news article.\\n- **Submit Donation**: Allows visitors to make donations to the foundation.\\n- **Submit Email Signup**: Allows visitors to subscribe to the mailing list with terms and privacy policy agreement.\\n- **Submit Contact Form**: Allows visitors to send inquiries to the foundation.\",\n      \"metadata\": [\n        { \"id\": \"view-about-us-information\", \"name\": \"View About Us Information\" },\n        { \"id\": \"view-mission-information\", \"name\": \"View Mission Information\" },\n        { \"id\": \"view-programs-listing\", \"name\": \"View Programs Listing\" },\n        { \"id\": \"view-program-details\", \"name\": \"View Program Details\" },\n        { \"id\": \"submit-volunteer-form\", \"name\": \"Submit Volunteer Form\" },\n        { \"id\": \"view-impact-timeline\", \"name\": \"View Impact Timeline\" },\n        { \"id\": \"view-news-listing\", \"name\": \"View News Listing\" },\n        { \"id\": \"view-news-item-details\", \"name\": \"View News Item Details\" },\n        { \"id\": \"submit-donation\", \"name\": \"Submit Donation\" },\n        { \"id\": \"submit-email-signup\", \"name\": \"Submit Email Signup\" },\n        { \"id\": \"submit-contact-form\", \"name\": \"Submit Contact Form\" }\n      ]\n    },\n    {\n      \"id\": \"structure\",\n      \"title\": \"## Structure\",\n      \"content\": \"- **Header (Reusable)**: Contains the foundation logo and navigation links to About Us, Our Mission, Our Programs, Our Progress, News, Donate, and Contact Us.\\n- **Footer (Reusable)**: Contains links to Terms of Use and Privacy Policy, social media links, and copyright information.\\n- **About Us Page**: Displays Mason's story, photo, QR code, brief description, email signup form with terms agreement, and Donate Now button.\\n- **Our Mission Page**: Describes the foundation's mission and fundraising goals.\\n- **Our Programs Page**: Lists all available programs (Get Help, Get Involved, Coming Soon) with details for each.\\n- **Get Help Program Page**: Provides guidance information for families seeking support.\\n- **Get Involved Program Page**: Contains the volunteer registration form.\\n- **Our Progress Page**: Displays the impact timeline and foundation updates.\\n- **News Page**: Lists all news articles and op-eds about pediatric cancer.\\n- **Donate Page**: Provides donation functionality.\\n- **Contact Us Page**: Contains the contact inquiry form.\"\n    }\n  ],\n  \"apps\": [\n    {\n      \"id\": \"wix-cms\",\n      \"keyFeatures\": [\n        { \"id\": \"view-about-us-information\", \"name\": \"View About Us Information\" },\n        { \"id\": \"view-mission-information\", \"name\": \"View Mission Information\" },\n        { \"id\": \"view-programs-listing\", \"name\": \"View Programs Listing\" },\n        { \"id\": \"view-program-details\", \"name\": \"View Program Details\" },\n        { \"id\": \"submit-volunteer-form\", \"name\": \"Submit Volunteer Form\" },\n        { \"id\": \"view-impact-timeline\", \"name\": \"View Impact Timeline\" },\n        { \"id\": \"view-news-listing\", \"name\": \"View News Listing\" },\n        { \"id\": \"view-news-item-details\", \"name\": \"View News Item Details\" },\n        { \"id\": \"submit-donation\", \"name\": \"Submit Donation\" },\n        { \"id\": \"submit-email-signup\", \"name\": \"Submit Email Signup\" },\n        { \"id\": \"submit-contact-form\", \"name\": \"Submit Contact Form\" }\n      ]\n    }\n  ],\n  \"version\": \"3.0.21\"\n}\n```",
+  "designerData": {
+    "designerId": "45d286a9-c2d3-4558-807d-a3f26205dc86",
+    "designerName": "Elise",
+    "selectionMethod": "UNSELECTED"
+  }
+}
