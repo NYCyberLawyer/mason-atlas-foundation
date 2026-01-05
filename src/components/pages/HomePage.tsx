@@ -84,6 +84,7 @@ const TIMELINE: TimelineEvent[] = [
   { year: "2026", title: "The Future", description: "Our foundation launched with a singular focus and mission...and with your support will save lives"." }
 ];
 
+
 // --- Utility Components ---
 
 type AnimatedElementProps = {
