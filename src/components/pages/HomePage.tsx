@@ -272,8 +272,8 @@ export default function HomePage() {
                   Our Mission
                 </span>
                 <h2 className="font-heading text-5xl md:text-6xl text-foreground mb-8 leading-[1.1]">
-                  A Sanctuary of <span className="italic text-soft-gold">Hope</span> & <br />
-                  Remembrance
+                  Continuing <span className="italic text-soft-gold">Mason's</span> <br />
+                  Legacy
                 </h2>
                 <div className="space-y-6 font-paragraph text-lg text-foreground/80 leading-relaxed">
                   <p>
