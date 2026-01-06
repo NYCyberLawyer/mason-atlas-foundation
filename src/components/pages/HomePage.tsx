@@ -178,15 +178,12 @@ export default function HomePage() {
           border: 1px solid rgba(255, 255, 255, 0.5);
         }
       `}</style>
-
       {/* Scroll Progress Indicator */}
       <motion.div 
         className="fixed top-0 left-0 right-0 h-1 bg-gradient-to-r from-primary via-soft-gold to-primary origin-left z-50"
         style={{ scaleX }}
       />
-
       <Header />
-
       {/* --- HERO SECTION --- */}
       <section className="relative h-screen w-full overflow-hidden flex items-center justify-center">
         {/* Parallax Background */}
@@ -247,7 +244,6 @@ export default function HomePage() {
           <div className="w-[1px] h-16 bg-gradient-to-b from-foreground/0 via-foreground/40 to-foreground/0" />
         </motion.div>
       </section>
-
       {/* --- MISSION SECTION --- */}
       <section className="relative py-32 w-full bg-background">
         <div className="max-w-[100rem] mx-auto px-8">
@@ -256,11 +252,13 @@ export default function HomePage() {
               <AnimatedElement>
                 <div className="relative aspect-[4/5] rounded-2xl overflow-hidden shadow-2xl">
                   <Image
-                    src="https://static.wixstatic.com/media/dcf233_4ee8ce904e4844c485f9cac49eca5abc~mv2.png?originWidth=768&originHeight=960"
-                    alt="Mason Atlas"
+                    src="https://static.wixstatic.com/media/dcf233_e64576d26f0744d6b2bbda1b643d819f~mv2.avif"
                     width={800}
                     className="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
-                  />
+                    originWidth={417}
+                    originHeight={485}
+                    focalPointX={59.352517985611506}
+                    focalPointY={45.97938144329897} />
                   <div className="absolute inset-0 border-[1px] border-white/20 m-4 rounded-xl pointer-events-none" />
                 </div>
                 {/* Decorative Element */}
@@ -311,7 +309,6 @@ export default function HomePage() {
           </div>
         </div>
       </section>
-
       {/* --- PROGRAMS SECTION --- */}
       <section className="py-32 w-full bg-white relative overflow-hidden">
         {/* Subtle Rainbow Gradient Background */}
@@ -353,7 +350,6 @@ export default function HomePage() {
           </div>
         </div>
       </section>
-
       {/* --- IMPACT TIMELINE SECTION --- */}
       <section className="py-32 w-full bg-background relative">
         <div className="max-w-[100rem] mx-auto px-8">
@@ -410,7 +406,6 @@ export default function HomePage() {
           </div>
         </div>
       </section>
-
       {/* --- NEWS SECTION --- */}
       <section className="py-32 w-full bg-white">
         <div className="max-w-[100rem] mx-auto px-8">
@@ -464,7 +459,6 @@ export default function HomePage() {
           </div>
         </div>
       </section>
-
       {/* --- NEWSLETTER & CTA SECTION --- */}
       <section className="py-32 w-full bg-background relative overflow-hidden">
         {/* Decorative Background Elements */}
@@ -565,7 +559,6 @@ export default function HomePage() {
           </div>
         </div>
       </section>
-
       <Footer />
     </div>
   );
