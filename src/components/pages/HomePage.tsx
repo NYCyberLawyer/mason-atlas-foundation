@@ -229,7 +229,7 @@ export default function HomePage() {
                   Donate Now
                 </Button>
               </Link>
-              <Link to="/mission">
+              <Link to="/about">
                 <Button variant="outline" className="border-foreground/20 text-foreground hover:bg-foreground/5 rounded-full px-10 py-8 text-lg font-paragraph backdrop-blur-sm">
                   Our Story
                 </Button>
@@ -369,7 +369,7 @@ export default function HomePage() {
                   <p className="font-paragraph text-lg text-foreground/70 mb-8">
                     From a single spark of hope to a growing movement. Witness the milestones of our journey together.
                   </p>
-                  <Link to="/progress">
+                  <Link to="/impact">
                     <Button variant="outline" className="rounded-full px-8 border-foreground/20 hover:bg-foreground/5">
                       View Full Report
                     </Button>
