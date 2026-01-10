@@ -276,18 +276,8 @@ export default function HomePage() {
                   Legacy
                 </h2>
                 <div className="space-y-6 font-paragraph text-lg text-foreground/80 leading-relaxed">
-                  <p>
-                    The Mason Atlas Foundation was created in loving memory of Mason Atlas, 
-                    a brave and beautiful child who touched countless lives during his battle 
-                    with pediatric brain cancer. Mason's spirit, symbolized by butterflies and 
-                    rainbows, continues to inspire hope and transformation.
-                  </p>
-                  <p>
-                    Our foundation is dedicated to supporting families affected by pediatric 
-                    cancer, funding critical research, and creating a community of hope and healing. 
-                    Through Mason's legacy, we strive to make a meaningful difference in the lives 
-                    of children and families facing similar challenges.
-                  </p>
+                  <p>{"Mason’s life, though far too brief, has left a lasting imprint on all who knew him. In the midst of extraordinary hardship, Mason showed us what quiet courage, compassion, and love truly look like. His presence changed us—and it continues to guide us."}</p>
+                  <p>{"In Mason’s memory, our family has established the Mason Atlas Giving Fund. The fund exists to honor who Mason was and to help ensure that other children and families facing pediatric brain cancer receive the care, research, and support they deserve."}</p>
                 </div>
                 
                 <div className="mt-12 flex items-center gap-8">
