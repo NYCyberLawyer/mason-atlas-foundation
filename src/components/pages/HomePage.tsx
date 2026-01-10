@@ -324,7 +324,7 @@ export default function HomePage() {
                        index === 1 ? <Heart className="w-8 h-8 text-primary" /> : 
                        <Sparkles className="w-8 h-8 text-primary" />}
                     </div>
-                    <h3 className="font-heading text-3xl text-foreground mb-4 group-hover:text-primary transition-colors">
+                    <h3 className="font-heading text-3xl text-foreground mb-4 group-hover:text-primary transition-colors leading-tight">
                       {program.title}
                     </h3>
                     <p className="font-paragraph text-foreground/70 mb-8 flex-grow leading-relaxed">
