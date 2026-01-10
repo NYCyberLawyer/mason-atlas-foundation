@@ -90,7 +90,7 @@ export default function MissionPage() {
             </p>
             
             <div className="grid grid-cols-12 gap-8 mt-12">
-              <div className="col-span-4">
+              <div className="col-span-3">
                 <div className="bg-background border border-primary rounded-lg p-8">
                   <h3 className="font-heading text-3xl text-primary mb-4">$500,000</h3>
                   <p className="font-paragraph text-base text-foreground">
@@ -102,7 +102,7 @@ export default function MissionPage() {
                 </div>
               </div>
               
-              <div className="col-span-4">
+              <div className="col-span-3">
                 <div className="bg-background border border-primary rounded-lg p-8">
                   <h3 className="font-heading text-3xl text-primary mb-4">$250,000</h3>
                   <p className="font-paragraph text-base text-foreground">
@@ -114,7 +114,7 @@ export default function MissionPage() {
                 </div>
               </div>
               
-              <div className="col-span-4">
+              <div className="col-span-3">
                 <div className="bg-background border border-primary rounded-lg p-8">
                   <h3 className="font-heading text-3xl text-primary mb-4">$150,000</h3>
                   <p className="font-paragraph text-base text-foreground">
@@ -122,6 +122,18 @@ export default function MissionPage() {
                   </p>
                   <p className="font-paragraph text-sm text-secondary mt-2">
                     Educating communities about pediatric cancer
+                  </p>
+                </div>
+              </div>
+
+              <div className="col-span-3">
+                <div className="bg-background border border-primary rounded-lg p-8">
+                  <h3 className="font-heading text-3xl text-primary mb-4">$200,000</h3>
+                  <p className="font-paragraph text-base text-foreground">
+                    Institutional Reform
+                  </p>
+                  <p className="font-paragraph text-sm text-secondary mt-2">
+                    Advocating for systemic changes in pediatric cancer care
                   </p>
                 </div>
               </div>
