@@ -37,7 +37,7 @@ interface TimelineEvent {
 
 const PROGRAMS: Program[] = [
   { 
-    title: "Get Help", 
+    title: "Pediatric Neuro-Oncology Research", 
     description: "Navigating a diagnosis is overwhelming. We provide guidance, resources, and a compassionate hand to hold for families in need.", 
     link: "/get-help",
     action: "Find Support"
