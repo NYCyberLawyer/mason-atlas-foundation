@@ -38,7 +38,7 @@ interface TimelineEvent {
 const PROGRAMS: Program[] = [
   { 
     title: "Pediatric Neuro-Oncology Research", 
-    description: "Navigating a diagnosis is overwhelming. We provide guidance, resources, and a compassionate hand to hold for families in need.", 
+    description: "Pediatric brain cancers remain among the deadliest childhood cancers, yet research in this area is profoundly underfunded. Too many treatments available to children today are adapted from adult therapies developed decades ago. The Mason Atlas Giving Fund is committed to supporting meaningful, disease-specific research aimed at improving outcomes and expanding treatment options for children.", 
     link: "/get-help",
     action: "Find Support"
   },
